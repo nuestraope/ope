@@ -1,11 +1,21 @@
-@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'home', 'title' => __('Material Dashboard')])
+@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'home', 'title' => __('Nuestra Ope')])
 
 @section('content')
-<div class="container" style="height: auto;">
+<div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-8">
-          <h1 class="text-white text-center">¡Bienvenidos a Nuestra OPE!</h1>
+      <div class="col-lg-9 col-md-9">
+          <img src="img/ejemplo_video.png" height="400px"/>
+          <div class = "col-lg-12 col-md-12 thumbcontainer">
+              <img src="img/slider-left.png" height="80px" width="15px"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
+              <img src="img/slider-right.png" height="80px" width="15px"/>
+          </div>
       </div>
   </div>
 </div>
 @endsection
+
+@include('layouts.navbars.sidebar-right')
