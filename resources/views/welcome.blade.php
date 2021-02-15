@@ -4,13 +4,13 @@
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
       <div class="col-lg-9 col-md-9">
-          <img src="img/ejemplo_video.png" height="400px"/>
+          <img src="img/ejemplo_video.png" width="100%"/>
           <div class = "col-lg-12 col-md-12 thumbcontainer">
               <img src="img/slider-left.png" height="80px" width="15px"/>
-              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
-              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
-              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
-              <img src="img/ejemplo_video.png" height="80px" class="thumbitem"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem mini1"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem mini2"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem mini3"/>
+              <img src="img/ejemplo_video.png" height="80px" class="thumbitem mini4"/>
               <img src="img/slider-right.png" height="80px" width="15px"/>
           </div>
       </div>

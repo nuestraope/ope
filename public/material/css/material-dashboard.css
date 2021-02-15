@@ -18140,6 +18140,24 @@ Copyright (c) 2015 Daniel Eden
   body {
     overflow-x: hidden;
   }
+
+  .sidebar {
+      display: none;
+  }
+
+  .footer {
+      position:absolute;
+      bottom: 0;
+  }
+
+  .mini4 {
+      display:none;
+  }
+
+  .mini3 {
+      display:none;
+  }
+
   .nav-open .menu-on-left .main-panel,
   .nav-open .menu-on-left .wrapper-full-page,
   .nav-open .menu-on-left .navbar-fixed>div {
