@@ -18109,7 +18109,7 @@ Copyright (c) 2015 Daniel Eden
     top: -2%;
   }
   .login-page .container {
-    padding-top: 100px !important;
+    padding-top: 40px !important;
   }
   .presentation-page #cd-vertical-nav,
   .index-page #cd-vertical-nav,
@@ -18156,6 +18156,14 @@ Copyright (c) 2015 Daniel Eden
 
   .mini3 {
       display:none;
+  }
+
+  .thumbcontainer {
+      width:100%;
+      display: flex;
+      justify-content: center;
+      margin-left: 0px;
+      margin-right: 0px;
   }
 
   .nav-open .menu-on-left .main-panel,

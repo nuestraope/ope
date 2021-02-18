@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <div class="col-lg-9 col-md-9">
+      <div class="col-lg-9 col-md-9 videocontainer">
           <img src="img/ejemplo_video.png" width="100%"/>
           <div class = "col-lg-12 col-md-12 thumbcontainer">
               <img src="img/slider-left.png" height="80px" width="15px"/>
