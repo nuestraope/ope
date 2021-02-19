@@ -18141,6 +18141,10 @@ Copyright (c) 2015 Daniel Eden
     overflow-x: hidden;
   }
 
+    .text-black {
+        color: #c2c6c9 !important;
+    }
+
   .sidebar {
       display: none !important;
   }
@@ -18360,6 +18364,8 @@ Copyright (c) 2015 Daniel Eden
   .off-canvas-sidebar nav .navbar-collapse>ul {
     margin-top: 19px;
   }
+
+
   .sidebar,
   .off-canvas-sidebar nav .navbar-collapse {
     position: fixed;
@@ -18371,7 +18377,7 @@ Copyright (c) 2015 Daniel Eden
     left: auto;
     z-index: 1032;
     visibility: visible;
-    background-color: #9A9A9A;
+    background-color: #9A9A9A !important;
     overflow-y: visible;
     border-top: none;
     text-align: left;
