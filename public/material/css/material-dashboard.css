@@ -8678,6 +8678,10 @@ button.bg-dark:focus {
     color: #000 !important;
 }
 
+.text-black2 {
+    color: #000 !important;
+}
+
 .text-primary {
   color: #2196f3 !important;
 }
@@ -18141,7 +18145,7 @@ Copyright (c) 2015 Daniel Eden
     overflow-x: hidden;
   }
 
-    .text-black {
+    .text-black2 {
         color: #c2c6c9 !important;
     }
 

@@ -13,22 +13,22 @@
     <div class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="{{ route('home') }}" class="nav-link text-black">
+          <a href="{{ route('home') }}" class="nav-link text-black2">
             <i class="material-icons">dashboard</i> {{ __('Nuestra Ope') }}
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'register' ? ' active' : '' }}">
-          <a href="{{ route('register') }}" class="nav-link text-black">
+          <a href="{{ route('register') }}" class="nav-link text-black2">
             <i class="material-icons">person_add</i> {{ __('Sobre Nosotros') }}
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
-          <a href="{{ route('login') }}" class="nav-link text-black">
+          <a href="{{ route('login') }}" class="nav-link text-black2">
             <i class="material-icons">face</i> {{ __('Nuestros amigos') }}
           </a>
         </li>
         <li class="nav-item ">
-          <a href="{{ route('profile.edit') }}" class="nav-link text-black">
+          <a href="{{ route('profile.edit') }}" class="nav-link text-black2">
             <i class="material-icons">control_point</i> {{ __('Más información') }}
           </a>
         </li>
