@@ -18,9 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/quienes-somos', function () {
+    return view('quienes-somos');
+})->name('quienes-somos');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Auth::routes();
 
 Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home')->middleware('auth');

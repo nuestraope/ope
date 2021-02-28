@@ -13,12 +13,12 @@
     <div class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="{{ route('home') }}" class="nav-link text-black2">
+          <a href="https://www.youtube.com/channel/UC6eK4uuUTeFMWcBYJhZxhpA" class="nav-link text-black2">
             <i class="material-icons">dashboard</i> {{ __('Nuestra Ope') }}
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'register' ? ' active' : '' }}">
-          <a href="{{ route('register') }}" class="nav-link text-black2">
+          <a href="{{ route('quienes-somos') }}" class="nav-link text-black2">
             <i class="material-icons">person_add</i> {{ __('Sobre Nosotros') }}
           </a>
         </li>

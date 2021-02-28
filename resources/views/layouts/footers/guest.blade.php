@@ -8,7 +8,7 @@
             </a>
             </li>
             <li>
-            <a href="about-us">
+            <a href="quienes-somos">
                 {{ __('Sobre Nosotros') }}
             </a>
             </li>
