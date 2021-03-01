@@ -18154,8 +18154,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   .footer {
-      position:absolute;
-      bottom: 0;
+      clear: both;
+      position: relative !important;
   }
 
   .mini4 {

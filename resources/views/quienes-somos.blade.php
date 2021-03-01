@@ -3,8 +3,8 @@
 @section('content')
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <h2 class="text-black">Nuestra historia</h2>
-      <div class="text-black">
+      <div class="text-black col-lg-4 col-md-4"><h2>Nuestra historia</h2></div>
+      <div class="text-black col-lg-9 col-md-9">
           Nuestra OPE surgió en 2018.
           Ante una época de muchas oposiciones sanitarias en España, quisimos aportar nuestro granito de arena facilitando al opositor la comprensión de los temas que más nos suelen desagradar, como es el bloque de legislación.
           Continuamos intentando ofrecer información valiosa durante el estado de alarma, con vídeos acerca del coronavirus y de tipos de mascarillas.
@@ -13,8 +13,8 @@
           Y todo de forma altruista. Es gratis, y siempre lo será.
 
       </div>
-      <h2 class="text-black">Equipo</h2>
-      <div class="text-black">
+      <div class="text-black col-lg-4 col-md-4"><h2>Equipo</h2></div>
+      <div class="text-black col-lg-9 col-md-9">
           Nuestra OPE estaba formado inicialmente por dos personas, somos tres actualmente:
           <ul>
               <li>Juan: nuestra incorporación más reciente. Es nuestro informático, el genio que, con su magia, va a convertir y dirigir las difusas ideas del proyecto en algo que podáis ver.</li>
