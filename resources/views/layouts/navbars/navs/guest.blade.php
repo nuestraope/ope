@@ -23,12 +23,12 @@
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
-          <a href="{{ route('login') }}" class="nav-link text-black2">
+          <a href="{{ route('nuestros-amigos') }}" class="nav-link text-black2">
             <i class="material-icons">face</i> {{ __('Nuestros amigos') }}
           </a>
         </li>
         <li class="nav-item ">
-          <a href="{{ route('profile.edit') }}" class="nav-link text-black2">
+          <a href="{{ route('mas-info') }}" class="nav-link text-black2">
             <i class="material-icons">control_point</i> {{ __('Más información') }}
           </a>
         </li>

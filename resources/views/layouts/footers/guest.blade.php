@@ -13,12 +13,12 @@
             </a>
             </li>
             <li>
-            <a href="friends">
+            <a href="nuestros-amigos">
                 {{ __('Nuestros amigos') }}
             </a>
             </li>
             <li>
-            <a href="more-information">
+            <a href="mas-info">
                 {{ __('Más información') }}
             </a>
             </li>

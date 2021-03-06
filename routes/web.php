@@ -23,6 +23,15 @@ Route::get('/quienes-somos', function () {
     return view('quienes-somos');
 })->name('quienes-somos');
 
+Route::get('/nuestros-amigos', function () {
+    return view('nuestros-amigos');
+})->name('nuestros-amigos');
+
+
+Route::get('/mas-info', function () {
+    return view('mas-info');
+})->name('mas-info');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
