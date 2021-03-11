@@ -18,8 +18,8 @@
             </a>
             </li>
             <li>
-            <a href="mas-info">
-                {{ __('Más información') }}
+            <a href="academias">
+                {{ __('Academias') }}
             </a>
             </li>
         </ul>

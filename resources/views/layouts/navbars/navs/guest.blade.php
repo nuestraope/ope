@@ -28,8 +28,8 @@
           </a>
         </li>
         <li class="nav-item ">
-          <a href="{{ route('mas-info') }}" class="nav-link text-black2">
-            <i class="material-icons">control_point</i> {{ __('Más información') }}
+          <a href="{{ route('numeros') }}" class="nav-link text-black2">
+            <i class="material-icons">format_list_numbered</i> {{ __('Números') }}
           </a>
         </li>
       </ul>

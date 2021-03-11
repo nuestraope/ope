@@ -28,9 +28,9 @@ Route::get('/nuestros-amigos', function () {
 })->name('nuestros-amigos');
 
 
-Route::get('/mas-info', function () {
-    return view('mas-info');
-})->name('mas-info');
+Route::get('/numeros', function () {
+    return view('numeros');
+})->name('numeros');
 
 Auth::routes();
 
