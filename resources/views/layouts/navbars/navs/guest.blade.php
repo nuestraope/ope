@@ -27,11 +27,31 @@
             <i class="material-icons">face</i> {{ __('Nuestros amigos') }}
           </a>
         </li>
-        <li class="nav-item ">
-          <a href="{{ route('numeros') }}" class="nav-link text-black2">
-            <i class="material-icons">format_list_numbered</i> {{ __('Números') }}
-          </a>
-        </li>
+          <li class="nav-item ">
+              <a href="{{ route('numeros') }}" class="nav-link text-black2">
+                  <i class="material-icons">format_list_numbered</i> {{ __('Números') }}
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="{{ route('rrss') }}" class="nav-link text-black2">
+                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="{{ route('rrss') }}" class="nav-link text-black2">
+                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="{{ route('rrss') }}" class="nav-link text-black2">
+                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="{{ route('rrss') }}" class="nav-link text-black2">
+                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              </a>
+          </li>
       </ul>
     </div>
   </div>

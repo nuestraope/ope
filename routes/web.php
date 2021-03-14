@@ -32,6 +32,14 @@ Route::get('/numeros', function () {
     return view('numeros');
 })->name('numeros');
 
+Route::get('/rrss', function () {
+    return view('rrss');
+})->name('rrss');
+
+Route::get('/academias', function () {
+    return view('academias');
+})->name('academias');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
