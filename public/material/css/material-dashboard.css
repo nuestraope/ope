@@ -4168,8 +4168,6 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -18098,6 +18096,7 @@ Copyright (c) 2015 Daniel Eden
   .footer {
       clear: both;
       position: relative !important;
+      margin-left: 0 !important;
   }
 
   .mini4 {
@@ -18844,6 +18843,7 @@ Copyright (c) 2015 Daniel Eden
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
+        z-index: 999;
     }
 }
 
