@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <div class="text-black col-lg-4 col-md-4"><h2>Nuestros seguidores hablan</h2></div>
+      <div class="text-black col-lg-6 col-md-6"><h2>Nuestros seguidores hablan</h2></div>
       <div class="text-black col-lg-9 col-md-9">
           <div>
           Desde Nuestra Ope queremos agradecer a todos y cada uno de los que hacen posible esta plataforma: Vosotros. Esta sección va dedicada a todas las personas que nos ven y nos muestran su cariño.

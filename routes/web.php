@@ -40,6 +40,14 @@ Route::get('/academias', function () {
     return view('academias');
 })->name('academias');
 
+Route::get('/formacion-continuada', function () {
+    return view('ffcc');
+})->name('formacion-continuada');
+
+Route::get('/colegios', function () {
+    return view('colegios');
+})->name('colegios');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

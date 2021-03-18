@@ -13125,7 +13125,6 @@ fieldset[disabled] .form-group .form-control {
 .navbar .navbar-brand {
   position: relative;
   color: inherit;
-  height: 50px;
   font-size: 1.125rem;
   line-height: 30px;
   font-weight: 300;
@@ -16260,6 +16259,7 @@ body {
   background-color: #c2c6c9;
   color: #3C4858;
   font-weight: 300;
+    overflow-x: hidden;
 }
 
 legend {

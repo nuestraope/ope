@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <div class="text-black col-lg-4 col-md-4"><h2>Nuestra historia</h2></div>
+      <div class="text-black col-lg-6 col-md-6"><h2>Nuestra historia</h2></div>
       <div class="text-black col-lg-9 col-md-9">
           Nuestra OPE surgió en 2018.
           Ante una época de muchas oposiciones sanitarias en España, quisimos aportar nuestro granito de arena facilitando al opositor la comprensión de los temas que más nos suelen desagradar, como es el bloque de legislación.

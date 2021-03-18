@@ -3,7 +3,7 @@
 @section('content')
     <div class="container" style="height: auto;position:relative">
         <div class="row justify-content-center">
-            <div class="text-black col-lg-4 col-md-4"><h2>Nuestra Ope en números</h2></div>
+            <div class="text-black col-lg-6 col-md-6"><h2>Nuestra Ope en números</h2></div>
             <div class="text-black col-lg-9 col-md-9">
                 <ul>
                     <li>Más de 3.000 seguidores en YouTube.</li>

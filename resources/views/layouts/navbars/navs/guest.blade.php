@@ -38,18 +38,18 @@
               </a>
           </li>
           <li class="nav-item ">
-              <a href="{{ route('rrss') }}" class="nav-link text-black2">
-                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              <a href="{{ route('academias') }}" class="nav-link text-black2">
+                  <i class="material-icons">school</i> {{ __('Academias') }}
               </a>
           </li>
           <li class="nav-item ">
-              <a href="{{ route('rrss') }}" class="nav-link text-black2">
-                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              <a href="{{ route('formacion-continuada') }}" class="nav-link text-black2">
+                  <i class="material-icons">sanitizer</i> {{ __('formación Continuada') }}
               </a>
           </li>
           <li class="nav-item ">
-              <a href="{{ route('rrss') }}" class="nav-link text-black2">
-                  <i class="material-icons">shared</i> {{ __('RRSS') }}
+              <a href="{{ route('colegios') }}" class="nav-link text-black2">
+                  <i class="material-icons">science</i> {{ __('Colegios de Enfermería') }}
               </a>
           </li>
       </ul>
