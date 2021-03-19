@@ -1001,7 +1001,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -14335,7 +14335,6 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .footer {
-  padding: 0.9375rem 0;
   text-align: center;
   display: -webkit-flex;
   /* Safari */
@@ -14429,8 +14428,9 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 .off-canvas-sidebar .footer {
   position: relative;
   bottom: 0;
-  width: 100%;
     margin-left: 10%;
+    margin-right: 10%;
+    margin-top:40px;
 }
 
 @media screen and (min-width: 768px) {
