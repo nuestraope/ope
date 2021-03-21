@@ -18094,6 +18094,7 @@ Copyright (c) 2015 Daniel Eden
   }
 
   .footer {
+      margin: 0px !important;
       clear: both;
       position: relative !important;
       margin-left: 0 !important;
