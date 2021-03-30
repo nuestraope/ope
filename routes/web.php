@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 //COLOR FEO:
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('principal');
 
 
 Route::get('/quienes-somos', function () {

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3868c933-8d87-450f-99f6-7ede3ce856d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/colegios.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/colegios.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +220,7 @@
       <workItem from="1616872185526" duration="1296000" />
       <workItem from="1617035720803" duration="1229000" />
       <workItem from="1617118238194" duration="1718000" />
-      <workItem from="1617122096939" duration="258000" />
+      <workItem from="1617122096939" duration="560000" />
     </task>
     <servers />
   </component>
