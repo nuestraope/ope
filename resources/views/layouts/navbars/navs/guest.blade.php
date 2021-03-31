@@ -24,7 +24,7 @@
         </li>
         <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
           <a href="{{ route('nuestros-amigos') }}" class="nav-link text-black2">
-            <i class="material-icons">face</i> {{ __('Nuestros amigos') }}
+            <i class="material-icons">face</i> {{ __('Nuestros seguidores') }}
           </a>
         </li>
           <li class="nav-item ">

@@ -12,6 +12,9 @@
                 </ul>
             </div>
         </div>
+        <div class="text-center">
+            <img width="400px" src="img/sosa.jpg"/>
+        </div>
     </div>
 @endsection
 

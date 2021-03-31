@@ -23,7 +23,10 @@
           </ul>
       </div>
   </div>
+    <div class="text-center">
+        <img width="400px" src="img/calamardo.png"/>
+    </div>
 </div>
-    <img width="400px" src="img/calamardo.png"/>
+
 @endsection
 
