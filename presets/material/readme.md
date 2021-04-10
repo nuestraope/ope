@@ -156,7 +156,7 @@ The documentation for the Material Dashboard Laravel is hosted at our [website](
     |   |       
     |   +---demo
     |   |       demo.css
-    |   |       demo.js
+    |   |       personal.js
     |   |       
     |   +---img
     |   +---js

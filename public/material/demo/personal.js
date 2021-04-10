@@ -235,3 +235,8 @@ demo = {
   }
 
 }
+
+jQuery('.thumbitem').on('click', function()
+{
+   jQuery('.video-main iframe').attr({'src':jQuery(this).attr('data')});
+});
