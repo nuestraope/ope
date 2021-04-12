@@ -240,3 +240,38 @@ jQuery('.thumbitem').on('click', function()
 {
    jQuery('.video-main iframe').attr({'src':jQuery(this).attr('data')});
 });
+
+
+jQuery('.slider-right').on('click', function()
+{
+    var img1 = jQuery('.mini1').attr('src');
+    var data1 = jQuery('.mini1').attr('data');
+    let set = jQuery('.thumbitem');
+    let length = set.length;
+    jQuery('.thumbitem').each(function(index){
+        if(index < length -1) {
+            jQuery(this).attr({'src':jQuery(this).next().attr('src')});
+            jQuery(this).attr({'data':jQuery(this).next().attr('data')});
+        }
+    });
+    jQuery('.mini' + length).attr({'src': img1});
+    jQuery('.mini' + length).attr({'data': data1});
+});
+
+jQuery.fn.reverse = [].reverse;
+
+jQuery('.slider-left').on('click', function()
+{
+    let set = jQuery('.thumbitem');
+    let length = set.length;
+    var imgn = jQuery('.mini' + length).attr('src');
+    var datan = jQuery('.mini' + length).attr('data');
+    jQuery('.thumbitem').reverse().each(function(index){
+        if(index < length -1) {
+            jQuery(this).attr({'src':jQuery(this).prev().attr('src')});
+            jQuery(this).attr({'data':jQuery(this).prev().attr('data')});
+        }
+    });
+    jQuery('.mini1').attr({'src': imgn});
+    jQuery('.mini1').attr({'data': datan});
+});
