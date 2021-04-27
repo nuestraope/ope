@@ -857,6 +857,11 @@ h6,
   line-height: 1.2;
 }
 
+.numeros-imagenes {
+    margin:60px;
+    width:25%;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -18107,6 +18112,9 @@ Copyright (c) 2015 Daniel Eden
         color: #c2c6c9 !important;
     }
 
+    .numeros-imagenes {
+        margin:20px;
+    }
   .sidebar {
       display: none !important;
   }

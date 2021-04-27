@@ -11,10 +11,10 @@
                     <li>Tenemos más de 1.500 amigos en Facebook.</li>
                 </ul>
                 <div class="text-center">
-                    <a href="https://www.facebook.com/NuestraOPE"><img src="img/facebook.gif" title="Siguenos en Facebook" width="25%" style="margin:60px"></a>
-                    <a href="https://www.youtube.com/channel/UC6eK4uuUTeFMWcBYJhZxhpA/videos"><img src="img/youtube.gif" title="Siguenos en Youtube" width="25%" style="margin:60px"></a>
-                    <a href="https://twitter.com/NuestraOpe"><img src="img/twitter.gif" title="Siguenos en Twitter" width="25%" style="margin:60px"></a>
-                    <a href="https://tiktok.com/NuestraOpe"><img src="img/tiktok.gif" title="Siguenos en Tiktok" width="25%" style="margin:60px"></a>
+                    <a href="https://www.facebook.com/NuestraOPE"><img class="numeros-imagenes" src="img/facebook.gif" title="Siguenos en Facebook"></a>
+                    <a href="https://www.youtube.com/channel/UC6eK4uuUTeFMWcBYJhZxhpA/videos"><img  class="numeros-imagenes"src="img/youtube.gif" title="Siguenos en Youtube"></a>
+                    <a href="https://twitter.com/NuestraOpe"><img src="img/twitter.gif" title="Siguenos en Twitter" class="numeros-imagenes"></a>
+                    <a href="https://vm.tiktok.com/ZMe9X2Smm"><img src="img/tiktok.gif" title="Siguenos en Tiktok" class="numeros-imagenes"></a>
                 </div>
             </div>
         </div>
