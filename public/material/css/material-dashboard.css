@@ -14474,6 +14474,8 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
     float: right;
     background-color: #c2c6c9;
     margin-right: 50px;
+    position: relative;
+    z-index:30
 }
 
 .sidebar .caret {

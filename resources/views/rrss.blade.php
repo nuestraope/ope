@@ -16,6 +16,8 @@
                     </li>
                     <li><i class="material-icons">email</i>Email: Si quieres ponerte en contacto con nosotros, aquí tienes nuestro correo: <br /><a href="mailto:nuestraope@gmail.com">Mail: nuestraope@gmail.com</a>
                     </li>
+                    <li><i class="material-icons">android</i>¡Descárgate la aplicación para Android! ¡Para estar siempre atento a todas las OPEs de España! Puedes hacerlo <a href="img/nuestraope.apk">aquí</a>.
+                    </li>
                 </ul>
             </div>
         </div>

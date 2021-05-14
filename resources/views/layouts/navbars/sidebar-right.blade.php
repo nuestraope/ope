@@ -8,17 +8,14 @@
       <h2 class="sideheader">
           Últimas Noticias
       </h2>
-    <ul class="nav">
-      <li class="nav-item">
-        - Nuevas convocatorias de Enfermería en Murcia en Mayo de 2021. Encontrarás toda la información en la sección de más información.
-      </li>
-      <li class="nav-item">
-        - ¡Preparate con nosotros los tests más completos existentes! Especialistas en Jurídico.
-      </li>
-        <li class="nav-item">
-            - ¡Descárgate nuestra APP! En ella encontrarás trucos, consejos y muchas cosas más que te ayudaran en nuestra OPE. Además, recuerda suscribirte a nuestro canal de Youtube. ¡Te esperámos!
-        </li>
-
-    </ul>
+    <div>
+      <div class="nav-item">
+          ¡OPE a la vista! Se avecina una macro-OPE en la Comunidad Valenciana, con multitud de plazas para diversas categorías. Más información: 👇👇👇<br/><a href="https://www.csif.es/contenido/comunidad-valenciana/sanidad/317217">https://www.csif.es/contenido/comunidad-valenciana/sanidad/317217</a><br/><br>
+      </div>
+      <div class="nav-item">
+          Os facilito la web del SESCAM, donde podremos ir encontrando todas las novedades acerca de las oposiciones que se están convocando⏬⏬⏬
+          <a href="https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/oferta-de-empleo-publico">https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/oferta-de-empleo-publico</a>
+      </div>
+    </div>
   </div>
 </div>
