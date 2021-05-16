@@ -1,6 +1,7 @@
 @extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'home', 'title' => __('Nuestra Ope')])
-
+@include('layouts.navbars.sidebar-right')
 @section('content')
+
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
       <div class="col-lg-9 col-md-9 videocontainer">
@@ -20,6 +21,7 @@
 
   </div>
 </div>
+
 @endsection
 
-@include('layouts.navbars.sidebar-right')
+

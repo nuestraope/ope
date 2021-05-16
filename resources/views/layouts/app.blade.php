@@ -15,7 +15,8 @@
     <!-- CSS Files -->
     <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="{{ asset('material') }}/demo/demo.css" rel="stylesheet" /><script data-ad-client="ca-pub-3155540888928146" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link href="{{ asset('material') }}/demo/demo.css" rel="stylesheet" />
+        <script data-ad-client="ca-pub-3155540888928146" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
     <body class="{{ $class ?? '' }}">
         @auth()
