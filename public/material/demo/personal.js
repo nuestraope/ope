@@ -275,3 +275,7 @@ jQuery('.slider-left').on('click', function()
     jQuery('.mini1').attr({'src': imgn});
     jQuery('.mini1').attr({'data': datan});
 });
+
+jQuery('.badge').on('click', function (e) {
+    jQuery('.dropdown-menu').css('background-color', jQuery(this).attr('data-color'));
+});

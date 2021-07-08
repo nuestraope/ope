@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
     <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="{{ asset('material') }}/demo/demo.css" rel="stylesheet" />
         <script data-ad-client="ca-pub-3155540888928146" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
     <body class="{{ $class ?? '' }}">
@@ -29,49 +27,49 @@
             @include('layouts.page_templates.guest')
         @endguest
         @if (auth()->check())
-        <div class="fixed-plugin">
+        <div class="fixed-plugin" style="z-index: 9999">
           <div class="dropdown show-dropdown">
             <a href="#" data-toggle="dropdown">
               <i class="fa fa-cog fa-2x"> </i>
             </a>
             <ul class="dropdown-menu">
-              <li class="header-title"> Sidebar Filters</li>
+              <li class="header-title">Color del Widget</li>
               <li class="adjustments-line">
                 <a href="javascript:void(0)" class="switch-trigger active-color">
                   <div class="badge-colors ml-auto mr-auto">
-                    <span class="badge filter badge-purple " data-color="purple"></span>
-                    <span class="badge filter badge-azure" data-color="azure"></span>
-                    <span class="badge filter badge-green" data-color="green"></span>
-                    <span class="badge filter badge-warning active" data-color="orange"></span>
-                    <span class="badge filter badge-danger" data-color="danger"></span>
-                    <span class="badge filter badge-rose" data-color="rose"></span>
+                    <span class="badge filter badge-purple" data-color="#9368E9"></span>
+                    <span class="badge filter badge-azure" data-color="#2CA8FF"></span>
+                    <span class="badge filter badge-green" data-color="#18ce0f"></span>
+                    <span class="badge filter badge-warning" data-color="#ffeb3b"></span>
+                    <span class="badge filter badge-danger" data-color="#f44336"></span>
+                    <span class="badge filter badge-rose" data-color="#e91e63"></span>
                   </div>
                   <div class="clearfix"></div>
                 </a>
               </li>
-              <li class="header-title">Images</li>
+              <li class="header-title">Recompensas</li>
               <li class="active">
                 <a class="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="{{ asset('material') }}/img/sidebar-1.jpg" alt="">
+                  <img src="img/recomp/1.png" alt="">
                 </a>
               </li>
               <li>
                 <a class="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="{{ asset('material') }}/img/sidebar-2.jpg" alt="">
+                  <img src="img/recomp/2.png" alt="">
                 </a>
               </li>
               <li>
                 <a class="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="{{ asset('material') }}/img/sidebar-3.jpg" alt="">
+                  <img src="img/recomp/3.png" alt="">
                 </a>
               </li>
               <li>
                 <a class="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="{{ asset('material') }}/img/sidebar-4.jpg" alt="">
+                  <img src="img/recomp/4.png" alt="">
                 </a>
               </li>
               <li class="button-container">
-                <a href="https://www.creative-tim.com/product/material-dashboard-laravel" target="_blank" class="btn btn-primary btn-block">Free Download</a>
+                <a href="https://www.creative-tim.com/product/material-dashboard-laravel" target="_blank" class="btn btn-primary btn-block">Descargar todas</a>
               </li>
               <!-- <li class="header-title">Want more components?</li>
                   <li class="button-container">
@@ -81,24 +79,31 @@
                   </li> -->
               <li class="button-container">
                 <a href="https://material-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html" target="_blank" class="btn btn-default btn-block">
-                  View Documentation
+                  Ver Anuncio
                 </a>
               </li>
               <li class="button-container">
-                <a href="https://www.creative-tim.com/product/material-dashboard-pro-laravel" target="_blank" class="btn btn-danger btn-block btn-round">
-                  Upgrade to PRO
+                <a href="https://www.youtube.com/channel/UC6eK4uuUTeFMWcBYJhZxhpA" target="_blank" class="btn btn-danger btn-block btn-round">
+                  ¡Visitanos en Youtube!
                 </a>
               </li>
-              <li class="button-container github-star">
-                <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard-laravel" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-              </li>
-              <li class="header-title">Thank you for 95 shares!</li>
+              <li class="header-title">¡Gracias por visitarnos!</li>
               <li class="button-container text-center">
-                <button id="twitter" class="btn btn-round btn-twitter"><i class="fa fa-twitter"></i> &middot; 45</button>
-                <button id="facebook" class="btn btn-round btn-facebook"><i class="fa fa-facebook-f"></i> &middot; 50</button>
+                      <button id="twitter" class="btn btn-round btn-twitter">
+                          <a href="https://twitter.com/NuestraOpe" class="btn-social-login" style="color:white" target="_blank">
+                              <i class="fa fa-twitter"></i></a>
+                      </button>
+                <button id="facebook" class="btn btn-round btn-facebook">
+                    <a href="https://www.facebook.com/NuestraOPE" class="btn-social-login" style="color:white" target="_blank">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                </button>
                 <br>
                 <br>
               </li>
+                <li class="button-container">
+                    <a href="{{ route('logout') }}" class="btn btn-link btn-block btn-round">Desconectarse</a>
+                </li>
             </ul>
           </div>
         </div>

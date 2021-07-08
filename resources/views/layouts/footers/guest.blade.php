@@ -13,13 +13,13 @@
             </a>
             </li>
             <li>
-            <a href="nuestros-amigos">
-                {{ __('Nuestros amigos') }}
+            <a href="politica">
+                {{ __('Política de privacidad') }}
             </a>
             </li>
             <li>
-            <a href="academias">
-                {{ __('Academias') }}
+            <a href="contacto">
+                {{ __('Contacto') }}
             </a>
             </li>
         </ul>

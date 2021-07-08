@@ -17,12 +17,12 @@
             <i class="material-icons">dashboard</i> {{ __('Nuestra Ope') }}
           </a>
         </li>
-        <li class="nav-item{{ $activePage == 'register' ? ' active' : '' }}">
+        <li class="nav-item">
           <a href="{{ route('quienes-somos') }}" class="nav-link text-black2">
             <i class="material-icons">person_add</i> {{ __('Sobre Nosotros') }}
           </a>
         </li>
-        <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
+        <li class="nav-item">
           <a href="{{ route('nuestros-amigos') }}" class="nav-link text-black2">
             <i class="material-icons">face</i> {{ __('Nuestros seguidores') }}
           </a>

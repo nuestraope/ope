@@ -2,9 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3868c933-8d87-450f-99f6-7ede3ce856d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Notifications/ResetPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1619543964129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129534532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129543922.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129544343.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1621350180113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1622559102736.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/1623760767576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/recomp/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/password/reset/img/calamardo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/password/reset/img/n_opelogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/es/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/contacto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard_old.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/politica.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ope.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/material/css/material-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/material/css/material-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/material/demo/personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/material/demo/personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/es/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/page_templates/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/page_templates/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +67,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,11 +194,15 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lbu5D83PIidiSxujyXrEcy6WEc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
@@ -143,8 +211,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\proyectos\ope\resources\views" />
-      <recent name="D:\proyectos\ope\resources\views\layouts\navbars" />
       <recent name="D:\proyectos\ope\resources\lang" />
+      <recent name="D:\proyectos\ope\resources\views\layouts\navbars" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,7 +303,38 @@
       <workItem from="1620746961594" duration="2213000" />
       <workItem from="1620836604940" duration="1370000" />
       <workItem from="1621009244981" duration="1993000" />
-      <workItem from="1621162366866" duration="893000" />
+      <workItem from="1621162366866" duration="1075000" />
+      <workItem from="1621535866795" duration="846000" />
+      <workItem from="1621957939466" duration="706000" />
+      <workItem from="1622043905916" duration="1230000" />
+      <workItem from="1622130331227" duration="616000" />
+      <workItem from="1622219046757" duration="1507000" />
+      <workItem from="1622286677387" duration="1898000" />
+      <workItem from="1622374524406" duration="293000" />
+      <workItem from="1622374838261" duration="625000" />
+      <workItem from="1622475620993" duration="868000" />
+      <workItem from="1622736662937" duration="1700000" />
+      <workItem from="1622892120386" duration="963000" />
+      <workItem from="1622975884516" duration="2226000" />
+      <workItem from="1623080602634" duration="1303000" />
+      <workItem from="1623169450885" duration="1321000" />
+      <workItem from="1623256550425" duration="1540000" />
+      <workItem from="1623429272199" duration="1128000" />
+      <workItem from="1623497832788" duration="1148000" />
+      <workItem from="1623583702432" duration="1394000" />
+      <workItem from="1623687270975" duration="1472000" />
+      <workItem from="1624292481841" duration="1785000" />
+      <workItem from="1624379857107" duration="603000" />
+      <workItem from="1624552044161" duration="1627000" />
+      <workItem from="1624635248844" duration="1677000" />
+      <workItem from="1624706253663" duration="1768000" />
+      <workItem from="1624792422159" duration="2171000" />
+      <workItem from="1624897108654" duration="1439000" />
+      <workItem from="1625158064648" duration="255000" />
+      <workItem from="1625310243678" duration="2129000" />
+      <workItem from="1625397096756" duration="2072000" />
+      <workItem from="1625587997983" duration="1279000" />
+      <workItem from="1625674884885" duration="1992000" />
     </task>
     <servers />
   </component>
@@ -254,5 +353,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

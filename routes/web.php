@@ -48,6 +48,16 @@ Route::get('/colegios', function () {
     return view('colegios');
 })->name('colegios');
 
+Route::get('/politica', function () {
+    return view('politica');
+})->name('politica');
+
+
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -93,3 +103,15 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'App\Http\Controllers\ProfileController@password']);
 });
 
+
+Auth::routes(['verify' => true]);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('logout', function ()
+{
+    auth()->logout();
+    Session()->flush();
+
+    return Redirect::to('/');
+})->name('logout');
