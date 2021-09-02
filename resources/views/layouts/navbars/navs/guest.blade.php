@@ -52,6 +52,16 @@
                   <i class="material-icons">science</i> {{ __('Colegios de Enfermería') }}
               </a>
           </li>
+          <li class="nav-item ">
+              <a title="Registrarse" href="{{ route('register') }}" class="nav-link text-black2">
+                  <i class="material-icons">lock</i>
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a title="Loguearse" href="{{ route('login') }}" class="nav-link text-black2">
+                <i class="material-icons">account_box</i>
+              </a>
+          </li>
       </ul>
     </div>
   </div>

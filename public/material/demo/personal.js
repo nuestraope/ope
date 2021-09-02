@@ -279,3 +279,24 @@ jQuery('.slider-left').on('click', function()
 jQuery('.badge').on('click', function (e) {
     jQuery('.dropdown-menu').css('background-color', jQuery(this).attr('data-color'));
 });
+
+function compruebaAceptaCookies() {
+    console.log("hola");
+    if(Cookies.get('rgpdOK') == 1){
+        cajacookies.style.display = 'none';
+    }
+}
+
+/* aquí guardamos la variable de que se ha
+aceptado el uso de cookies así no mostraremos
+el mensaje de nuevo */
+function aceptarCookies() {
+    Cookies.set('rgpdOK', '1', { expires: 365 });
+    cajacookies.style.display = 'none';
+}
+
+/* ésto se ejecuta cuando la web está cargada */
+jQuery(document).ready(function () {
+    console.log("pepe");
+    compruebaAceptaCookies();
+});

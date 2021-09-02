@@ -2,59 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3868c933-8d87-450f-99f6-7ede3ce856d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Notifications/ResetPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1619543964129.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129534532.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129543922.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1620129544343.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1621350180113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1622559102736.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/1623760767576.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/recomp/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/password/reset/img/calamardo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/password/reset/img/n_opelogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/es.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/es/es.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contacto.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard_old.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/politica.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/recaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vid/ajdoinvson.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vid/fdskfkssgv.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vid/lsfnsgnfrg.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vid/sgnskngv.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vid/uyufytichbi.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ope.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/presets/material/src/material-stubs/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/material/css/material-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/material/css/material-dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/material/demo/personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/material/demo/personal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Example.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/es/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/es/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/page_templates/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/page_templates/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,6 +161,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
+      <path value="$PROJECT_DIR$/vendor/biscolab/laravel-recaptcha" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lbu5D83PIidiSxujyXrEcy6WEc" />
@@ -335,6 +302,14 @@
       <workItem from="1625397096756" duration="2072000" />
       <workItem from="1625587997983" duration="1279000" />
       <workItem from="1625674884885" duration="1992000" />
+      <workItem from="1625848361173" duration="1951000" />
+      <workItem from="1625917664536" duration="649000" />
+      <workItem from="1626002107449" duration="954000" />
+      <workItem from="1626193931781" duration="1052000" />
+      <workItem from="1626366431085" duration="1715000" />
+      <workItem from="1626710156153" duration="2232000" />
+      <workItem from="1630522132802" duration="670000" />
+      <workItem from="1630596951065" duration="1031000" />
     </task>
     <servers />
   </component>

@@ -13,10 +13,21 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
+        {!! htmlScriptTagJsApi(['lang' => 'es']) !!}
+        <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
         <script data-ad-client="ca-pub-3155540888928146" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            /* ésto comprueba la localStorage si ya tiene la variable guardada */
+
+        </script>
     </head>
     <body class="{{ $class ?? '' }}">
+    <div id="cajacookies">
+        <p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button>
+            Éste sitio web usa cookies, si permanece aquí acepta su uso.
+            Puede leer más sobre el uso de cookies en nuestra <a href="politica">política de privacidad</a>.
+        </p>
+    </div>
         @auth()
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
@@ -69,16 +80,10 @@
                 </a>
               </li>
               <li class="button-container">
-                <a href="https://www.creative-tim.com/product/material-dashboard-laravel" target="_blank" class="btn btn-primary btn-block">Descargar todas</a>
+                <a onclick="alert('Recompensas en proceso de implementación.');" href="#" class="btn btn-primary btn-block">Descargar todas</a>
               </li>
-              <!-- <li class="header-title">Want more components?</li>
-                  <li class="button-container">
-                      <a href="https://www.creative-tim.com/product/material-dashboard-pro" target="_blank" class="btn btn-warning btn-block">
-                        Get the pro version
-                      </a>
-                  </li> -->
               <li class="button-container">
-                <a href="https://material-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html" target="_blank" class="btn btn-default btn-block">
+                <a onclick="alert('Anuncios no disponibles por el momento.');" href="#" class="btn btn-default btn-block">
                   Ver Anuncio
                 </a>
               </li>
@@ -119,6 +124,7 @@
         <script src="{{ asset('material') }}/js/plugins/sweetalert2.js"></script>
         <!-- Forms Validations Plugin -->
         <script src="{{ asset('material') }}/js/plugins/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
         <script src="{{ asset('material') }}/js/plugins/jquery.bootstrap-wizard.js"></script>
         <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
@@ -152,6 +158,7 @@
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
         <script src="{{ asset('material') }}/demo/personal.js"></script>
         <script src="{{ asset('material') }}/js/settings.js"></script>
+
         @stack('js')
     </body>
 </html>
