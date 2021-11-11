@@ -305,7 +305,7 @@ $('#restart_pomodoro i').on('click', function (e) {
     e.preventDefault();
     var ahora = new Date();
     var end = new Date();
-    end.setTime(ahora.getTime() + (1 * 60 * 1000));
+    end.setTime(ahora.getTime() + (25 * 60 * 1000));
     var oldtimer = document.querySelector('#restart_pomodoro i').getAttribute('mark');
 
     clearInterval(oldtimer);
