@@ -13631,6 +13631,16 @@ fieldset[disabled] .form-group .form-control {
     margin:4px;
 }
 
+#countdown_pomodoro {
+    color: red;
+    font-size: 3.3125rem;
+}
+
+#restart_pomodoro i {
+    font-size: 3.3125rem !important;
+    margin-top: 20px;
+}
+
 .page-header .category,
 .page-header .description {
   color: rgba(255, 255, 255, 0.8);

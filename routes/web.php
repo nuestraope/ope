@@ -57,6 +57,13 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+Route::get('/utils', function () {
+    return view('utils');
+})->name('utils');
+
+Route::get('/pomodoro', function () {
+    return view('pomodoro');
+})->name('pomodoro');
 
 Auth::routes();
 

@@ -8,8 +8,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="quienes-somos">
-                        {{ __('Sobre Nosotros') }}
+                    <a href="utils">
+                        {{ __('Utilidades') }}
                     </a>
                 </li>
                 <li>

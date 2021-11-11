@@ -83,7 +83,7 @@
                 <a onclick="alert('Recompensas en proceso de implementación.');" href="#" class="btn btn-primary btn-block">Descargar todas</a>
               </li>
               <li class="button-container">
-                <a onclick="alert('Anuncios no disponibles por el momento.');" href="#" class="btn btn-default btn-block">
+                <a class="btn btn-default btn-block publicityLauncher">
                   Ver Anuncio
                 </a>
               </li>
