@@ -40,7 +40,7 @@
                   var minutes = Math.floor((distance % _hour) / _minute);
                   var seconds = Math.floor((distance % _minute) / _second);
 
-                  document.getElementById('countdown_pomodoro').innerHTML = minutes + ' minutos y ';
+                  document.getElementById('countdown_pomodoro').innerHTML = minutes + ' minutos<br/><br/>';
                   document.getElementById('countdown_pomodoro').innerHTML += seconds + ' segundos';
               }
 
