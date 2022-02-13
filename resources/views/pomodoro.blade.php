@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="height: auto;position:relative">
   <div class="row justify-content-center">
-      <div class="text-black col-lg-6 col-md-6"><h2>Contacto</h2></div>
+      <div class="text-black col-lg-6 col-md-6"><h2>Técnica Pomodoro</h2></div>
       <div class="text-black col-lg-9 col-md-9">
           <div>
               La técnica Pomodoro consiste en estudiar en intervalos de 25 minutos con espacio de 5 minutos de descanso entre cada sesión de estudio.<br/>

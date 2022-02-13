@@ -339,7 +339,12 @@ $('#restart_pomodoro i').on('click', function (e) {
 });
 
 function openPublicity() {
-    alert("Recompensas en proceso de implementación");
+    var videoElement;
+    videoElement = document.getElementById('video-element');
+    var playButton = document.getElementById('play-button');
+    playButton.addEventListener('click', function(event) {
+        videoElement.play();
+    });
 }
 
 

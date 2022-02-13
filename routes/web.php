@@ -65,6 +65,10 @@ Route::get('/pomodoro', function () {
     return view('pomodoro');
 })->name('pomodoro');
 
+Route::get('/exams', function () {
+    return view('exams');
+})->name('exams');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
