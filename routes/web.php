@@ -65,9 +65,7 @@ Route::get('/pomodoro', function () {
     return view('pomodoro');
 })->name('pomodoro');
 
-Route::get('/exams', function () {
-    return view('exams');
-})->name('exams');
+Route::get('/exams', [App\Http\Controllers\ExamsController::class, 'index'])->name('exams');
 
 Auth::routes();
 
