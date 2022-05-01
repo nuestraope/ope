@@ -18178,7 +18178,12 @@ Copyright (c) 2015 Daniel Eden
         margin:20px;
     }
   .sidebar {
-      display: none !important;
+      display: block !important;
+      position: relative !important;
+      float: none;
+      width: 80% !important;
+      left: -220px !important;
+      background-color: #c2c6c9;
   }
 
   .footer {
@@ -18410,7 +18415,6 @@ Copyright (c) 2015 Daniel Eden
     right: 0;
     left: auto;
     visibility: visible;
-    background-color: #9A9A9A !important;
     overflow-y: visible;
     border-top: none;
     text-align: left;
@@ -18439,7 +18443,7 @@ Copyright (c) 2015 Daniel Eden
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #282828;
+    background-color: #c2c6c9;
     display: block;
     content: "";
   }
